@@ -1,0 +1,10 @@
+@'
+__pycache__/
+*.pyc
+outputs/
+data/
+*.npy
+*.pt
+*.csv
+.ipynb_checkpoints/
+'@ | Set-Content -Encoding UTF8 .gitignore
